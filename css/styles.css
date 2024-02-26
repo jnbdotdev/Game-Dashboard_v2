@@ -1,0 +1,248 @@
+html, body, #screen-content {
+    min-height: 90% !important;
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background-image: url("../img/Menu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#screen-content {
+    width: 70%;
+    height: 75%;
+    margin-top: 2.5%;
+    display: inline-block;
+    background-color: rgba(247, 205, 205, 0.445);
+
+    border: 1px;
+    border-color: rgba(255, 227, 227, 0.219);
+    border-style: solid;
+    border-radius: 20px;
+}
+
+/*  LEFT SIDE   */
+#left-side {
+    float: left;
+    margin-left: 2%;
+    width: 30%;
+    height: 100%;
+    margin-right: 1%;
+
+    border: 1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 30px;
+}
+#char-image-div{
+    display: inline-block;
+    margin-top: 5%;
+    height: 32%;
+    width: 90%;
+}
+#char-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+
+    border: 1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#actual-world-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+}
+#char-statistics-div{
+    display: inline-block;
+    margin-top: 5%;
+    height: 60%;
+    width: 90%;
+    background-color: rgba(193, 248, 248, 0.253);
+    
+    border: 1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+/*  TEXTS   */
+#statistics-title {
+    margin-top: 5%;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 3.5vh;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+#general-title {
+    margin-top: 3%;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 6vh;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+#stats-title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 4vh;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+#actual-world-title {
+    margin-top: 5%;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 4vh;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+
+.statistics-paragraph {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 2.6vh;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+.general-paragraph {
+    text-align: center;
+    margin-top: 15%;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 4vh;
+    color: rgb(45, 45, 45);
+}
+.stats-paragraph {
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 3.2vh;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+.actual-world-paragraph {
+    text-align: center;
+    margin-top: 25%;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 4vh;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+
+#level {
+    color: rgb(80, 92, 255);
+
+    text-shadow: -1px 0 white, 0 1px white,
+    1px 0 white, 0 -1px white;
+}
+#max-life {
+    color: rgb(80, 255, 138);
+
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+}
+#money {
+    color: rgb(243, 255, 80);
+
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+}
+#kits {
+    color: rgb(255, 80, 80);
+
+    text-shadow: -1px 0 white, 0 1px white,
+    1px 0 white, 0 -1px white;
+}
+
+/*  RIGHT SIDE   */
+#right-side {
+    float: right;
+    margin-right: 2%;
+    width: 63%;
+    height: 100%;
+    margin-left: 1%;
+
+    border: 1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 30px;
+}
+#char-general-div {
+    display: inline-block;
+    margin-top: 2.5%;
+    width: 95%;
+    height: 40%;
+    background-color: rgba(193, 248, 248, 0.253);
+
+    border: 1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 30px;
+}
+#player-info-side1 {
+    float: left;
+    width: 48%;
+    height: 98%;
+}
+#player-info-side2 {
+    float: right;
+    width: 48%;
+    height: 98%;
+}
+
+#char-rightdown-div {
+    display: inline-block;
+    margin-top: 2.5%;
+    width: 95%;
+    height: 53%;
+    background-color: transparent;
+
+    border: 1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#char-stats-div {
+    float: left;
+    width: 48%;
+    height: 98%;
+    background-color: rgba(193, 248, 248, 0.253);
+
+    border: 1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#actual-world-div {
+    float: right;
+    width: 48%;
+    height: 98%;
+    background-color: rgba(193, 248, 248, 0.253);
+
+    border: 1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 30px;
+}
